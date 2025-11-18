@@ -31,40 +31,46 @@ img {
 div {
     min-height: 200px;
     padding: 20px;
-    border-bottom: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
 }
 
 .yellow {
     background-color: #fff700;
     text-align: right;
     margin-left: 50px;
+    border: none; 
+    border-right: 5px solid #ffffff;
     border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-left: 0;
+    border-bottom: 0;
 }
 
 .red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    border-top: 0;
+    border-right: 0;
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
+    border: none;
+    border-right: 5px solid #ffffff;
     border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-left: 0;
+    border-bottom: 0;
 }
 
 .blue h1, .blue h2, .blue p {
@@ -79,8 +85,6 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
 }
 
 footer {
@@ -92,3 +96,4 @@ footer p {
     text-align: right;
     padding: 15px 15px 15px 0;
 }
+
