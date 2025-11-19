@@ -44,7 +44,7 @@ div {
     background-color: #fff700;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #ffffff;  /* 5px left border */
+    border-left: 5px solid #ffffff;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -89,6 +89,7 @@ footer p {
     text-align: right;
     padding: 15px 15px 15px 0;
 }
+
 
 
 
