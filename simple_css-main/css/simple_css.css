@@ -31,7 +31,7 @@ img {
 div {
     min-height: 200px;
     padding: 20px;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
 }
 
 .introduction {
@@ -89,6 +89,7 @@ footer p {
     text-align: right;
     padding: 15px 15px 15px 0;
 }
+
 
 
 
